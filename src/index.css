@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.layout {
+	flex-direction: column;
+	height: 100vh;
+	display: flex;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.navButton > .active {
+	opacity: 1;
+}
+
+.navButton > .nav-link {
+	opacity: 0.4;
+}
