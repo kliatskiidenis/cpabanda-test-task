@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = `${process.env.REACT_APP_BASE_URL}/v1/${process.env.REACT_APP_CLASS_KEY}`;
+const URL = `${process.env.REACT_APP_BASE_URL}v1/${process.env.REACT_APP_CLASS_KEY}`;
 const GET_SCHOOL_BOYS_URL = `${URL}/Schoolboy`;
 const GET_LESSONS_URL = `${URL}/Column`;
 const GET_VALUES_URL = `${URL}/Rate`;
